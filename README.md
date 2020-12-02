@@ -22,3 +22,7 @@ Inferential Statistics:
 
 We conducted our analyses using Stata 15.1. Included is our data in Stata's .dta format, as well as the Do file, which contains the syntax for running our analyses. Additionally, we included .csv files, which can be used or imported with any statistics software. If you run the code in Stata, you can expect output of the statistical values shared in detail in our supplemental materials. This should take seconds to run each analysis.
 
+Figures:
+
+Some stimuli in specific phases had fewer trials than other stimuli (e.g., B-, C-, and BC+ had half as many trials as ABC- during Reminder 1). In order to cleanly visualize the data, we linearly interpolated data points for stimuli that had fewer trials. This was done just for visualization purposes (i.e., to make the line graphs have continuous lines); this interpolation was not used in data analysis. Data analysis only included the real data that was collected.
+
