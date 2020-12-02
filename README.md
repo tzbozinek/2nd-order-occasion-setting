@@ -11,15 +11,10 @@ Installation time should be < 30 minutes, depending on how much of this software
 If you do not already have it, install Anaconda (https://www.anaconda.com/products/individual). This will provide much of the software needed to run our code. After installing Anaconda, open it. Enter the following code into your terminal. To do so, launch a terminal and enter the code below one by one. You may launch a terminal by opening Anaconda, launching CMD.exe Prompt, then entering the code below. Note: to run WAIC successfully, use arviz version 0.6.1.
 
 conda install mkl mkl-service m2w64-toolchain libpython 
-
 conda install Theano 
-
 conda install m2w64-toolchain 
-
 pip install Theano 
-
 pip install arviz==0.6.1 
-
 conda install pymc3
 
 These are the versions of software and packages used by the authors: 
