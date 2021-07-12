@@ -24,10 +24,6 @@ export delimited using "2nd NOS - Main Data Training TJK.csv", replace
 
 
 
-use "2nd NOS - OS2 Stimulus-Specific Alpha Parameters.dta"
-export delimited using "2nd NOS - OS2 Stimulus-Specific Alpha Parameters.csv", replace
-
-
 
 use "2nd NOS - Main Data Transfer Test 1 ABG,AJK.dta"
 export delimited using "2nd NOS - Main Data Transfer Test 1 ABG,AJK.csv", replace

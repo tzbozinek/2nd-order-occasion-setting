@@ -87,16 +87,4 @@
 			*MG
 			
 				ttest GminusMGtest1_mean == MGminusMNtest1_mean
-
-	**Alpha Parameters
-	
-		use "2nd POS - OS2 Stimulus-Specific Alpha Parameters.dta"
-	
-		*stimulus (Main Effect)
-			mixed DV i.stimulus || ID:
-			contrast i.stimulus
-
-				*Simple effects
 				
-					margins stimulus
-					margins stimulus, pwcompare(pveffects)					

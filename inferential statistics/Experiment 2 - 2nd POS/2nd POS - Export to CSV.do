@@ -24,11 +24,6 @@ export delimited using "2nd POS - Main Data Training UMN.csv", replace
 
 
 
-use "2nd POS - OS2 Stimulus-Specific Alpha Parameters.dta"
-export delimited using "2nd POS - OS2 Stimulus-Specific Alpha Parameters.csv", replace
-
-
-
 use "2nd POS - Main Data Transfer Test 1 DEH,DMN.dta"
 export delimited using "2nd POS - Main Data Transfer Test 1 DEH,DMN.csv", replace
 

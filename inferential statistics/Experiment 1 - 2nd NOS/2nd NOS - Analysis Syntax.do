@@ -85,18 +85,4 @@
 			
 			*JH
 			
-				ttest JHminusHtest1_mean == JKminusJHtest1_mean
-
-				
-	**Alpha Parameters from Computational Modeling
-	
-	use "2nd NOS - OS2 Stimulus-Specific Alpha Parameters.dta"
-	
-		*stimulus (Main Effect)
-			mixed DV i.stimulus || ID:
-			contrast i.stimulus
-
-				*Simple effects
-				
-					margins stimulus
-					margins stimulus, pwcompare(pveffects)	
+				ttest JHminusHtest1_mean == JKminusJHtest1_mean	
