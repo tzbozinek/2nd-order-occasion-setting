@@ -88,3 +88,9 @@
 			
 				ttest GminusMGtest1_mean == MGminusMNtest1_mean
 				
+		*For Transfer Test 2 Effect Size
+			
+			ttest DMN_fromUMN_test2_mean == DMNtest1_mean
+			ttest DMN_fromUMN_test2_mean == MN_fromUMN_test2_mean
+			ttest DMN_fromUMN_test2_mean == DEF_fromUMN_test2_mean
+			ttest DMN_fromUMN_test2_mean == UMN_fromUMN_test2_mean

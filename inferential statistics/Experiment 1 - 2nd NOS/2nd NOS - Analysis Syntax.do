@@ -85,4 +85,12 @@
 			
 			*JH
 			
-				ttest JHminusHtest1_mean == JKminusJHtest1_mean	
+				ttest JHminusHtest1_mean == JKminusJHtest1_mean
+				
+		*For Transfer Test 2 Effect Size
+			
+			ttest AJK2_fromTJK_test2_mean == AJKtest1_mean
+			ttest AJK2_fromTJK_test2_mean == JK2_fromTJK_test2_mean
+			ttest AJK2_fromTJK_test2_mean == ABC_fromTJK_test2_mean
+			ttest AJK2_fromTJK_test2_mean == TJK_fromTJK_test2_mean
+			
